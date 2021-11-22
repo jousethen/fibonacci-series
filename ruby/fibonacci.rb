@@ -1,5 +1,15 @@
 def fibonacci(num)
-  # type your code in here
+  fib = [0,1]
+  value = 0
+  a = 0
+  while a < num - 1 do
+    value = fib[-1] + fib[-2]
+    fib << value
+    a = a + 1
+  end
+
+  value
+  
 end
 
 if __FILE__ == $PROGRAM_NAME
@@ -21,3 +31,5 @@ end
 
 # Please add your pseudocode to this file
 # And a written explanation of your solution
+
+
