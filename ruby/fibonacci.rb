@@ -7,9 +7,7 @@ def fibonacci(num)
     fib << value
     a = a + 1
   end
-
   value
-  
 end
 
 if __FILE__ == $PROGRAM_NAME
